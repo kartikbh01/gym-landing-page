@@ -1,11 +1,16 @@
 body {
   font-family: Arial;
+  margin:0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding:5px 50px;
+  border:2px solid black;
+  
+
 }
 
 .logo {
@@ -27,12 +32,14 @@ body {
 }
 
 .hero {
+  height: 100vh;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
 .hero-content {
+  height: 50vh;
   width: 100%;
 }
 
@@ -48,9 +55,9 @@ body {
 
 .btn {
   padding: 12px 30px;
-  border-radius:10px;
+  border-radius: 10px;
   border: none;
-  background-color: #ff4d4d;
+  background-color: #ff6868;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -58,4 +65,42 @@ body {
 
 .btn:hover {
   background-color: #ff1a1a;
+}
+
+/* Programs */
+
+.programs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background: #000000e7;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color:white;
+}
+
+.program-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: #000000c2;
+  color:white;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #ff3939;
 }
