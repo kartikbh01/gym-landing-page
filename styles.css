@@ -67,8 +67,6 @@ body {
   background-color: #ff1a1a;
 }
 
-/* Programs */
-
 .programs {
   display: flex;
   align-items: center;
@@ -91,8 +89,6 @@ body {
 }
 
 .card {
-  flex: 1;
-  min-width: 250px;
   padding: 30px;
   border-radius: 10px;
   border: 2px solid black;
@@ -103,4 +99,43 @@ body {
 .card h3 {
   margin-bottom: 15px;
   color: #ff3939;
+}
+
+.trainers {
+  padding: 80px;
+}
+
+.trainers h2 {
+  color:black;
+}
+
+.trainer-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.trainer-card {
+  background-color: #222;
+  border-radius: 10px;
+  text-align: center;
+  border-radius:15px;
+}
+
+.trainer-card img {
+  width: 500px;
+  height: 300px;
+  object-fit:;
+}
+
+.trainer-card h3 {
+  margin-top: 20px;
+  color:white;
+  
+}
+
+.trainer-card p {
+  margin: 10px 0 20px;
+  color: #ccc;
 }
