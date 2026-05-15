@@ -79,7 +79,7 @@ body {
 .section-title {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: white;
 }
 
@@ -119,6 +119,7 @@ body {
 
 .trainer-card {
   background-color: #222;
+  max-width: 400px;
   color: white;
   border-radius: 10px;
   overflow: hidden;
@@ -239,13 +240,13 @@ body {
 
 .reviews {
   padding: 80px 0;
-  background:black;
+  background: black;
 }
 
 .review-cards {
   display: flex;
   gap: 20px;
-  padding:20px;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
@@ -256,7 +257,6 @@ body {
   border-radius: 12px;
   transition: 0.3s;
 }
-
 
 .review-card p {
   line-height: 1.7;
@@ -276,8 +276,8 @@ body {
 
 .join-form-wrapper {
   display: flex;
-  gap: 40px;
-  align-items: center;
+  gap: 10px;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -288,7 +288,6 @@ body {
 
 .join-content h2 {
   font-size: 48px;
-  margin-bottom: 20px;
 }
 
 .join-content p {
@@ -304,21 +303,19 @@ body {
 
 .join-form {
   flex: 1;
-  min-width: 300px;
   background-color: #222;
-  padding: 40px;
+  padding: 20px;
   border-radius: 12px;
 }
 
 .join-form h3 {
-  margin-bottom: 25px;
-  font-size: 28px;
-  color:white;
+  font-size: 25px;
+  color: white;
 }
 
 .join-form input,
 .join-form select {
-  width: 100%;
+  width: 90%;
   padding: 14px;
   margin-bottom: 20px;
   border: none;
@@ -328,3 +325,98 @@ body {
   font-size: 16px;
 }
 
+/* BMI Result */
+
+.bmi-result {
+  background-color: #333;
+  width: 30%;
+  padding: 2px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bmi-result h4 {
+  margin-bottom: 5px;
+  color: #ff4d4d;
+}
+
+.bmi-result p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Secondary Button */
+
+.secondary-btn {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #444;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover {
+  background-color: #555;
+}
+
+/* Members Page */
+
+.members-page {
+  padding: 80px 0;
+}
+
+.members-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Members Table */
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.members-table {
+  width: 80%;
+  margin-left:20px;
+  border-collapse: collapse;
+  min-width: 800px;
+  background-color: #3a3939;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.members-table th,
+.members-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.members-table th {
+  background-color: #000000;
+  color: white;
+}
+
+.members-table td {
+  color: #ffffff;
+}
+
+.members-table tr:hover {
+  background-color: #2d2d2d;
+}
+
+.empty-message {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+}

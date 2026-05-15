@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Gym Members</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container navbar">
+        <h1 class="logo">FitZone</h1>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./join.html">Join</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Members Section -->
+    <section class="members-page">
+      <div class="container">
+        <div class="members-header">
+          <h2 style="margin-left: 20px; color:black;" class="section-title">Gym Members</h2>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="members-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>BMI Status</th>
+                <th>Plan</th>
+                <th>Joined</th>
+              </tr>
+            </thead>
+
+            <tbody id="membersContainer"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
