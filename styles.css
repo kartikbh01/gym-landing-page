@@ -8,7 +8,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 5px 50px;
-  background: #ff4e4e1f;
+  background: #000000ce;
   border-bottom: 2px solid #750000c7;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav-links a:hover {
@@ -267,3 +267,64 @@ body {
 .review-card h4 {
   color: #ff4d4d;
 }
+
+/* Join Page */
+
+.join-page {
+  padding: 80px;
+}
+
+.join-form-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.join-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.join-content h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.join-content p {
+  margin-bottom: 30px;
+  line-height: 1.7;
+  color: #363636;
+}
+
+.join-content img {
+  width: 80%;
+  border-radius: 12px;
+}
+
+.join-form {
+  flex: 1;
+  min-width: 300px;
+  background-color: #222;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.join-form h3 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color:white;
+}
+
+.join-form input,
+.join-form select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
