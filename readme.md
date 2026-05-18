@@ -1,8 +1,8 @@
 ### Home page
-![alt text](image.png)
+![alt text](./assets/images/image.png)
 
 ### Joining form
-![alt text](image-1.png)
+![alt text](./assets/images/image-1.png)
 
 ### Members list
-![alt text](image-2.png)
+![alt text](./assets/images/image-2.png)

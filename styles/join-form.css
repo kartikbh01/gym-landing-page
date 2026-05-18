@@ -1,0 +1,74 @@
+.join-page {
+  padding: 80px;
+}
+
+.join-form-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.join-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.join-content h2 {
+  font-size: 48px;
+}
+
+.join-content p {
+  margin-bottom: 30px;
+  line-height: 1.7;
+  color: #363636;
+}
+
+.join-content img {
+  width: 80%;
+  border-radius: 12px;
+}
+
+.join-form {
+  flex: 1;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.join-form h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.join-form input,
+.join-form select {
+  width: 90%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
+/* BMI Result */
+
+.bmi-result {
+  background-color: #333;
+  width: 30%;
+  padding: 2px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bmi-result h4 {
+  margin-bottom: 5px;
+  color: #ff4d4d;
+}
+
+.bmi-result p {
+  color: #ccc;
+  line-height: 1.6;
+}

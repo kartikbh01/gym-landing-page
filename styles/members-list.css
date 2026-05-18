@@ -1,0 +1,54 @@
+.members-page {
+  padding: 80px 0;
+}
+
+.members-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Members Table */
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.members-table {
+  width: 80%;
+  margin-left: 20px;
+  border-collapse: collapse;
+  min-width: 800px;
+  background-color: #3a3939;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.members-table th,
+.members-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.members-table th {
+  background-color: #000000;
+  color: white;
+}
+
+.members-table td {
+  color: #ffffff;
+}
+
+.members-table tr:hover {
+  background-color: #2d2d2d;
+}
+
+.empty-message {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+}
